@@ -2,16 +2,22 @@
   "schemaVersion": 1,
   "source": {
     "repository": "pixel-point/siteos-platform",
-    "revision": "dd988927283b8b198fb7b4bfd2befffe07234a30",
-    "dirty": true
+    "revision": "be2aac0c4ac95f1c3e2f7d5485f3444e7d82f7c4",
+    "dirty": false
   },
-  "versions": [],
+  "versions": [
+    {
+      "sha": "573f132d7bbeb8e2767a875363d2a1cb0bd21dac",
+      "changeNotes": "Initial SiteOS Analytics template with explicit consent updates, registered events, branding and verified GTM scenarios.",
+      "templateSha256": "89a890f390f60ee2c6509babbf3f006ce9b574916e769d8d7f249bb36a52d391"
+    }
+  ],
   "files": {
     "template.tpl": "89a890f390f60ee2c6509babbf3f006ce9b574916e769d8d7f249bb36a52d391",
     "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
     "README.md": "5587c326dfc9938b425281c799567a4df7ed40eee1cab342b1a69224c32e7475",
     "scripts/verify.mjs": "adc1bc4d1d1229317f19ce2095f38cb2f7e121235952494ba3596774c1015458",
     ".github/workflows/verify.yml": "74018677aef06f6d7cf645f7c9c0860a66eb846c5a1cbd8b66df555ca5855010",
-    "metadata.yaml": "6144cde1724ae7e36e854f9a4b4b168eb9a057d796e2c83bfed2d1dc22cac240"
+    "metadata.yaml": "979695cfff775365dd227de647eb78bbfeba8e1fb3bbfb474640e0bde6bfe796"
   }
 }
