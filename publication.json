@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": {
     "repository": "pixel-point/siteos-platform",
-    "revision": "9356feb5df86aad5e59000e35902001e0e134375",
+    "revision": "bbcceafe758a984a903f3e89ed7fa5f58fd220a8",
     "dirty": false
   },
   "versions": [
@@ -13,9 +13,9 @@
     }
   ],
   "files": {
-    "template.tpl": "89a890f390f60ee2c6509babbf3f006ce9b574916e769d8d7f249bb36a52d391",
+    "template.tpl": "bbb1099e3a270720e11b5ccee5f155de7c24bd8ca4077090071d53e4f0415ee6",
     "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-    "README.md": "5587c326dfc9938b425281c799567a4df7ed40eee1cab342b1a69224c32e7475",
+    "README.md": "50c37c1e3e9a41bc8b323a4be35096781dc1e1012b03851744403c6291e9a774",
     "scripts/verify.mjs": "adc1bc4d1d1229317f19ce2095f38cb2f7e121235952494ba3596774c1015458",
     ".github/workflows/verify.yml": "74018677aef06f6d7cf645f7c9c0860a66eb846c5a1cbd8b66df555ca5855010",
     "metadata.yaml": "979695cfff775365dd227de647eb78bbfeba8e1fb3bbfb474640e0bde6bfe796"
