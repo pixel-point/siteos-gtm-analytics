@@ -1,5 +1,7 @@
 homepage: "https://siteos.sh"
 documentation: "https://github.com/pixel-point/siteos-gtm-analytics#installation"
 versions:
+  - sha: 592a0fcd8312a59d3c7aba26f32f0bcf0d06b84e
+    changeNotes: "Layered cookieless collection, scoped recognition consent and optional same-origin identity integration."
   - sha: 573f132d7bbeb8e2767a875363d2a1cb0bd21dac
     changeNotes: "Initial SiteOS Analytics template with explicit consent updates, registered events, branding and verified GTM scenarios."

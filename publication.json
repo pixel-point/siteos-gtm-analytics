@@ -2,10 +2,15 @@
   "schemaVersion": 1,
   "source": {
     "repository": "pixel-point/siteos-platform",
-    "revision": "bbcceafe758a984a903f3e89ed7fa5f58fd220a8",
+    "revision": "a38821e1e544a7bd1d8916b4119847463bd0731a",
     "dirty": false
   },
   "versions": [
+    {
+      "sha": "592a0fcd8312a59d3c7aba26f32f0bcf0d06b84e",
+      "changeNotes": "Layered cookieless collection, scoped recognition consent and optional same-origin identity integration.",
+      "templateSha256": "bbb1099e3a270720e11b5ccee5f155de7c24bd8ca4077090071d53e4f0415ee6"
+    },
     {
       "sha": "573f132d7bbeb8e2767a875363d2a1cb0bd21dac",
       "changeNotes": "Initial SiteOS Analytics template with explicit consent updates, registered events, branding and verified GTM scenarios.",
@@ -18,6 +23,6 @@
     "README.md": "50c37c1e3e9a41bc8b323a4be35096781dc1e1012b03851744403c6291e9a774",
     "scripts/verify.mjs": "adc1bc4d1d1229317f19ce2095f38cb2f7e121235952494ba3596774c1015458",
     ".github/workflows/verify.yml": "74018677aef06f6d7cf645f7c9c0860a66eb846c5a1cbd8b66df555ca5855010",
-    "metadata.yaml": "979695cfff775365dd227de647eb78bbfeba8e1fb3bbfb474640e0bde6bfe796"
+    "metadata.yaml": "38a80a6faee2b15bdb701b15a267122879bbca519ed25a9bcdfa24d87cd5d020"
   }
 }
