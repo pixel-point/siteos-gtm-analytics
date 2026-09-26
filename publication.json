@@ -2,10 +2,15 @@
   "schemaVersion": 1,
   "source": {
     "repository": "pixel-point/siteos-platform",
-    "revision": "ea9d03c36849a9c2a143649e7e87028c562b36c8",
+    "revision": "76613f0e13b2151348e1f1cd4b77db8685185660",
     "dirty": false
   },
   "versions": [
+    {
+      "sha": "2c2956d56de362e08743cabbf716e5cd0cd3a9fb",
+      "changeNotes": "Apply external recognition permissions before initialization for consent-aware linked websites.",
+      "templateSha256": "71452bcb8bab61ab29d895571722c36f398bc7de9fc2b0e55a5077be30b8995a"
+    },
     {
       "sha": "592a0fcd8312a59d3c7aba26f32f0bcf0d06b84e",
       "changeNotes": "Layered cookieless collection, scoped recognition consent and optional same-origin identity integration.",
@@ -23,6 +28,6 @@
     "README.md": "ef9fa64f28f052b9f6a5dc3133c820e01e0617ae82ea451d24b19e25645b5e72",
     "scripts/verify.mjs": "adc1bc4d1d1229317f19ce2095f38cb2f7e121235952494ba3596774c1015458",
     ".github/workflows/verify.yml": "74018677aef06f6d7cf645f7c9c0860a66eb846c5a1cbd8b66df555ca5855010",
-    "metadata.yaml": "38a80a6faee2b15bdb701b15a267122879bbca519ed25a9bcdfa24d87cd5d020"
+    "metadata.yaml": "a208ce37a3ffaf5b4f61ba34f5e1e1904bd04629fbc44553c3fca36ab49ee138"
   }
 }

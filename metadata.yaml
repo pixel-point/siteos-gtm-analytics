@@ -1,6 +1,8 @@
 homepage: "https://siteos.sh"
 documentation: "https://github.com/pixel-point/siteos-gtm-analytics#installation"
 versions:
+  - sha: 2c2956d56de362e08743cabbf716e5cd0cd3a9fb
+    changeNotes: "Apply external recognition permissions before initialization for consent-aware linked websites."
   - sha: 592a0fcd8312a59d3c7aba26f32f0bcf0d06b84e
     changeNotes: "Layered cookieless collection, scoped recognition consent and optional same-origin identity integration."
   - sha: 573f132d7bbeb8e2767a875363d2a1cb0bd21dac
