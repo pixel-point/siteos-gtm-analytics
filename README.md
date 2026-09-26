@@ -73,9 +73,14 @@ an external consent variable. These controls do not configure consent for other 
 
 ## Send an event
 
-Register the event code and categorical properties in SiteOS first. Create another tag using this
+Register the event code and property names in SiteOS first. Choose List for predefined values or
+Text for explicit public content without enumerating values (current server/runtime required;
+1–256 Unicode characters, never visitor input). Create another tag using this
 template with action **Send an event**, the same public key, the event code and its declared property
-rows (at most eight). For example: `trial_started` with `plan: pro`, if those values are registered.
+rows (at most eight). For example: `trial_started` with `plan: pro` from its List, or
+`product_opened` with `title: Team workspace` when `title` is declared as Text. Reload with the
+current Analytics script after catalog changes. Search received values in the event's Property
+values report. Text support changes the shared runtime, not this template's input fields.
 
 Fire the event after the business action actually succeeds and after the initialization tag has
 completed. Unregistered events/properties, events before readiness and events without detailed

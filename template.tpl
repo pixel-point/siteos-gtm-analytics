@@ -212,6 +212,10 @@ if (data.mode === 'init') {
       if (copyFromWindow('SiteOSAnalyticsLoader.recognitionVersion') !== 1) { data.gtmOnFailure(); return; }
       if (copyFromWindow('SiteOSAnalyticsLoader.permissionsVersion') !== 1) { data.gtmOnFailure(); return; }
       const options = { permissionVersion: 1, recognition: true };
+      if (data.permissionSnapshots) {
+        if (copyFromWindow('SiteOSAnalyticsLoader.initialPermissionsVersion') !== 1) { data.gtmOnFailure(); return; }
+        options.permissions = data.permissionSnapshots;
+      }
       if (data.identityEndpoint) {
         if (copyFromWindow('SiteOSAnalyticsLoader.identityVersion') !== 1) { data.gtmOnFailure(); return; }
         options.identity = { version: 1, endpoint: data.identityEndpoint };
@@ -287,6 +291,11 @@ ___WEB_PERMISSIONS___
                 "type": 3,
                 "mapKey": [{"type":1,"string":"key"},{"type":1,"string":"read"},{"type":1,"string":"write"},{"type":1,"string":"execute"}],
                 "mapValue": [{"type":1,"string":"SiteOSAnalyticsLoader.permissionsVersion"},{"type":8,"boolean":true},{"type":8,"boolean":false},{"type":8,"boolean":false}]
+              },
+              {
+                "type": 3,
+                "mapKey": [{"type":1,"string":"key"},{"type":1,"string":"read"},{"type":1,"string":"write"},{"type":1,"string":"execute"}],
+                "mapValue": [{"type":1,"string":"SiteOSAnalyticsLoader.initialPermissionsVersion"},{"type":8,"boolean":true},{"type":8,"boolean":false},{"type":8,"boolean":false}]
               },
               {
                 "type": 3,
